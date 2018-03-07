@@ -1,0 +1,40 @@
+body{
+	font-family: arial;
+}
+.ct{
+	width: 600px;
+	margin: 0 auto;  /*块级元素水平居中*/
+}
+.ct>table {
+	margin-top: 30px;
+}
+.table{
+	border-collapse: collapse;  /*合并每个单元格的边框，可继承*/
+	border-spacing: 0;		/*边框距离*/
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+.table tr {
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+}
+.table th{
+	color: white;
+	background: #4caf50;
+	padding: 8px;
+	font-weight: bold;
+}   /*两个列表的表头变绿色*/
+.table td{
+	padding: 8px;
+}
+.table tr:nth-child(even){
+	background: #f1f1f1;
+}   /*两个列表的偶数行背景为浅灰色*/
+.table.two{
+	border: none;
+}
+.table.two th{
+	color: #000;
+	background: #fff;
+}
