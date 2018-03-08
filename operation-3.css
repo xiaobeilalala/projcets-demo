@@ -1,0 +1,39 @@
+.layout{
+	width: 600px;
+	margin: 0 auto;
+}
+
+
+.h-button{
+	display: inline-block;
+	padding: 8px 10px;
+	text-decoration: none; /*去除下划线*/
+	border-radius: 3px; /*圆角*/
+	cursor: pointer;  /*鼠标从指针变为手指*/
+	color: #000;
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-timing-function: initial;
+	transition-delay: initial;
+}
+.h-button:hover{
+	box-shadow:  0px 6px 20px 0px rgba(0,0,0,0.19),0px 8px 16px 0px rgba(0,0,0,0.2);
+}					/*box-shadow向下移动6px，模糊程度20px，向下移动8px，模糊程度16px*/
+.steal{
+	background: #009688;
+	color: #fff;
+}
+.yellow{
+	background: #ffeb3b;
+}
+.orange{
+	background: #ff9800;
+}
+.red {
+	background: #f44336;
+	color: #fff;
+}
+.green{
+	background: #4caf50;
+	color: #fff;
+}
