@@ -1,0 +1,52 @@
+.triangle{
+	width: 0px;
+	height: 0px;
+	margin: 30px;
+}
+
+.one{
+	border-top: 30px solid blue;
+	border-right: 30px solid yellow;
+	border-bottom: 30px solid green;
+	border-left: 30px solid red;
+}
+.two{
+	border-top: 30px solid blue;
+	border-right: 30px solid white;
+	border-bottom: 30px solid white;
+	border-left: 30px solid white;
+}
+.three{
+	border-top: 30px solid white;
+	border-right: 30px solid white;
+	border-bottom: 30px solid white;
+	border-left: 30px solid red;
+}
+.four{
+	border-top: 30px solid white;
+	border-right: 30px solid yellow;
+	border-bottom: 30px solid white;
+	border-left: 30px solid white;
+}
+.five{
+	border-top: 30px solid white;
+	border-right: 30px solid white;
+	border-bottom: 30px solid green;
+	border-left: 30px solid white;
+}
+.six{
+	border-top: 30px solid white;
+	border-right: 30px solid white;
+	border-left: 30px solid red;
+}
+.seven{
+	border-top: 30px solid white;
+	border-bottom: 30px solid green;
+	border-left: 30px solid white;
+}
+.test{
+	width: 30px;
+	height: 30px;
+	margin: 30px;
+	background: pink;
+}
